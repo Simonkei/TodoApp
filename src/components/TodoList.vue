@@ -1,5 +1,5 @@
 <template>
-  <v-container style="width: 800px">
+  <v-container fluid style="width: 800px">
     <v-snackbar color="error" rounded class="text-center" top v-model="error">
       <v-row justify="center">
         {{ errorMsg }}
